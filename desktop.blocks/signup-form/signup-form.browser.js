@@ -1,8 +1,18 @@
 /*global modules:false */
 
-modules.define('signup-form', function(provide) {
+modules.define('i-bem__dom', function(provide, DOM) {
 
-provide();
+    DOM.decl('signup-form', {
+        onSetMod : {
+            'js' : {
+                'inited': function() {
+                    Typekit.load();
+                }
+            }
+        }
+    });
+
+provide(DOM);
 
 });
 

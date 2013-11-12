@@ -1,5 +1,6 @@
 .select-country {
     margin-bottom: 10px;
+    font-family: proxima-nova, sans-serif;
 }
 
 @import "../../libs/plugins/chosen_v1.0.0/chosen.min.css";

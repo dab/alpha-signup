@@ -2,7 +2,8 @@
     block: 'page',
     title: 'HF Alpha Signup',
     head: [
-        { elem: 'css', url: '_signup.css', ie: false }
+        { elem: 'css', url: '_signup.css', ie: false },
+        { elem: 'js', url: '//use.typekit.net/xyu1mnf.js'}
     ],
     content: [
         {
