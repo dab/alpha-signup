@@ -1,0 +1,10 @@
+.slogan
+{
+    display: block;
+    width: 80%;
+}
+
+.slogan span{
+    color: red;
+    display: block;
+}
