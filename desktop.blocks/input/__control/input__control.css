@@ -7,3 +7,9 @@
     border: 1px solid #E0E0E0;
     margin-bottom: 10px;
 }
+
+.input_focused .input__control {
+    color: #3697BE;
+    outline: none;
+    border-color: #3697BE;
+}
