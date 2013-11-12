@@ -1,0 +1,9 @@
+.signup-form__connection-params {
+    margin-top: 30px;
+}
+
+.signup-form__connection-params h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}

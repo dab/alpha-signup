@@ -1,10 +1,14 @@
-.slogan
-{
+.slogan {
     display: block;
-    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Georgia", "Times", serif;
+    color: #333;
+    margin: 20px;
 }
 
-.slogan span{
-    color: red;
+.slogan span {
+    color: #E04324;
     display: block;
 }

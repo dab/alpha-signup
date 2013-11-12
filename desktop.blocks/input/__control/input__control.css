@@ -1,0 +1,9 @@
+.input__control {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #999;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 10px;
+}

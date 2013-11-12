@@ -2,4 +2,7 @@
 {
     display: block;
     vertical-align: top;
+    font-family: "ProximaNova", 'Helvetica', sans-serif;
+    font-size: 15px;
+    color: #333;
 }

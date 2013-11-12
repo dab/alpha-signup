@@ -1,0 +1,10 @@
+block logo {
+    tag: 'h1'
+}
+
+block logo, content: applyCtx({
+    block: 'link',
+    tag: 'a',
+    attrs: { href: this.ctx.href },
+    content: applyNext()
+})

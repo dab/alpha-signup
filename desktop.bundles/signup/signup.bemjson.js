@@ -2,13 +2,18 @@
     block: 'page',
     title: 'HF Alpha Signup',
     head: [
-        { elem: 'css', url: '_signup.css', ie: false },
-        { elem: 'css', url: '_signup', ie: true }
+        { elem: 'css', url: '_signup.css', ie: false }
     ],
     content: [
         {
             block: 'header',
-            content: 'HF logo'
+            content: [
+                {
+                    block: 'logo',
+                    content: 'High Fidelity',
+                    href: 'http://highfidelity.io'
+                }
+            ]
         },
         {
             block: 'slogan',
@@ -25,7 +30,7 @@
                             content: [
                             {
                                 elem: 'title',
-                                content: 'I have these: (check all that apply)'
+                                content: 'I have these: <span>(check all that apply)</span>'
                             },
                             {
                                 elem: 'item',
@@ -33,6 +38,7 @@
                                     {
                                     block: 'checkbox',
                                     val: 'android',
+                                        mods : { size : 's' },
                                     text: 'Android Phone or Tablet'
                                     }
                                 ]
@@ -88,10 +94,11 @@
                         ]
                         },
                         {
-                            block: 'connection-params',
+                            elem: 'connection-params',
                             content: [
                                 {
-                                    block: 'h3',
+                                    elem: 'title',
+                                    mix: [{ block: 'list', elem: 'title'}],
                                     content: 'My broadband connection speed is:'
                                 },
                                 {
@@ -123,19 +130,18 @@
                         },
                         {
                             block: 'input',
-                            content: 'First Name',
+                            placeholder: 'First Name',
                             name: 'first-name'
                         },
                         {
                             block: 'input',
-                            content: 'Last Name',
+                            placeholder: 'Last Name',
                             name: 'last-name'
                         },
                         {
                             block: 'input',
-                            mod: 'email',
                             name: 'email',
-                            content: 'Email'
+                            placeholder: 'Email'
                         },
                         {
                             block: 'button',
