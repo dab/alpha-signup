@@ -1,0 +1,8 @@
+.slogan_theme_bordered {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    margin: 0;
+    padding: 33px 10px 27px;
+    font-size: 36px;
+    color: #E04324;
+}

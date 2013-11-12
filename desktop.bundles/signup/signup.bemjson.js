@@ -38,7 +38,7 @@
                                     {
                                     block: 'checkbox',
                                     val: 'android',
-                                        mods : { size : 's' },
+                                    mods : { size : 's' },
                                     text: 'Android Phone or Tablet'
                                     }
                                 ]

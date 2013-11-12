@@ -1,0 +1,15 @@
+.page_theme_narrow .message {
+    font-family: 'Georgia', 'Times', serif;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid #DDD;
+    padding: 29px 55px;
+}
+
+.page_theme_narrow .message p {
+    margin-bottom: 25px;
+}
+
+.page_theme_narrow .message a {
+    color: #3697BE;
+}
