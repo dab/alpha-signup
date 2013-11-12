@@ -1,9 +1,3 @@
-# Minimal setup to start a new [BEM](http://bem.info) project
-
-This repository contains the *minimal* configuration-files and folders you will need to create a [BEM](http://bem.info) project from *scratch*.
-
----
-
 ## Installation Requirements:
 
 - [node.js](http://nodejs.org/)
@@ -18,9 +12,9 @@ So, how easy is it to get started with BEM?  *Super easy*.
 
 It's as easy as...
     
-1. ›`git clone git://github.com/bem/project-stub.git`
-2. ›`cd project-stub`
-3. >`npm install`
+1. ›`git clone git://github.com/dab/alpha-signup.git`
+2. ›`cd alpha-signup`
+3. >`npm i`
 4. ›`./node_modules/bem/bin/bem server`
 
 *(hint: execute the above commands in your terminal)*
@@ -28,10 +22,10 @@ It's as easy as...
 Now that `bem server` is running, check it out:
 
 ````
-Navigate to: http://localhost:8080/desktop.bundles/index/index.html
+Navigate to: http://localhost:8080/desktop.bundles/signup/signup.html
 ````
 
-(here, have a link: [http://localhost:8080/desktop.bundles/index/index.html](http://localhost:8080/desktop.bundles/index/index.html))
+(here, have a link: [http://localhost:8080/desktop.bundles/signup/signup.html](http://localhost:8080/desktop.bundles/signup/signup.html))
 
 ---
 
