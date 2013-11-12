@@ -1,3 +1,5 @@
 .select-country {
     margin-bottom: 10px;
 }
+
+@import "../../libs/plugins/chosen_v1.0.0/chosen.min.css";

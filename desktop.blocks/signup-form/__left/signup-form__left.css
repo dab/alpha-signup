@@ -6,3 +6,9 @@
     border: 1px solid #ddd;
     padding: 20px 30px;
 }
+
+@media screen and (max-width: 650px) {
+    .signup-form__left {
+        width: 100%;
+    }
+}
