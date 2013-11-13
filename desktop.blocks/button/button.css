@@ -1,4 +1,4 @@
-.signup-form__right .button {
+.signup-form__right .button, .signup-widget .button {
     background-color: #E04324;
     padding: 10px 15px;
     color: white;
@@ -10,5 +10,5 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     cursor: pointer;
-
+    text-decoration: none;
 }
