@@ -14,3 +14,8 @@
     outline: none;
     border-color: #3697BE;
 }
+
+.input__control.error {
+    color: #E04324;
+    border-color: #E04324;
+}

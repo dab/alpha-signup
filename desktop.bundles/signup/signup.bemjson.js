@@ -145,7 +145,7 @@
                         },
                         {
                             block: 'errors',
-                            content: 'Oops! Your email looks funny, please double check its formatting.'
+                            content: ''
                         },
                         {
                             block: 'button',

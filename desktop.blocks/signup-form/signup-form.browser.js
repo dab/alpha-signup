@@ -8,6 +8,8 @@ modules.define('i-bem__dom', function(provide, DOM) {
                     Typekit.load();
 
                     jQuery('.signup-form').validate({
+                        errorLabelContainer: '.errors',
+                        wrapper: 'p',
                         rules: {
                             fname: "required",
                             lname: "required",
@@ -18,7 +20,7 @@ modules.define('i-bem__dom', function(provide, DOM) {
                         },
                         messages: {
                             fname: "Please specify your first name.",
-                            lname: "Please specify your first name.",
+                            lname: "Please specify your last name.",
                             email: {
                                 required: "We need your email address to contact you.",
                                 email: "Oops! Your email looks funny, please double check its formatting."
