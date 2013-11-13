@@ -3,7 +3,7 @@
     width: 100%;
     padding: 10px;
     font-size: 18px;
-    color: #999;
+    color: #333;
     border: 1px solid #E0E0E0;
     margin-bottom: 10px;
     font-family: proxima-nova, sans-serif;
@@ -18,4 +18,17 @@
 .input__control.error {
     color: #E04324;
     border-color: #E04324;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
 }
