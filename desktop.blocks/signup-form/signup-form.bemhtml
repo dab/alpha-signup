@@ -2,8 +2,7 @@ block('signup-form')(
     tag()('form'),
     js()('true'),
     attrs()({
-        action: 'success.html',
+        action: 'success.php',
         method: 'post'
     })
-
 )
