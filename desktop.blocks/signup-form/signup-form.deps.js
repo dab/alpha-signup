@@ -1,12 +1,7 @@
 [{
+    mustDeps : { block : 'jquery' },
     shouldDeps : [
-        {
-            block : ['i-chosen']
-        }
-    ],
-    mustDeps:[
-        {
-            block: ['jquery']
-        }
+        'i-chosen',
+        'i-jquery-validation'
     ]
 }]
