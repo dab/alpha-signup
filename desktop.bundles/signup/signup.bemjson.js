@@ -96,7 +96,7 @@
                                 {
                                     elem: 'title',
                                     mix: [{ block: 'list', elem: 'title'}],
-                                    content: 'My broadband connection speed is:'
+                                    content: 'My broadband downstream speed is:'
                                 },
                                 {
                                     block: 'radio',
@@ -127,17 +127,21 @@
                         {
                             block: 'input',
                             placeholder: 'First Name',
-                            name: 'first-name'
+                            name: 'fname',
+                            id: 'fname'
                         },
                         {
                             block: 'input',
                             placeholder: 'Last Name',
-                            name: 'last-name'
+                            name: 'lname',
+                            id: 'lname'
                         },
                         {
                             block: 'input',
                             name: 'email',
-                            placeholder: 'Email'
+                            placeholder: 'Email',
+                            type: 'email',
+                            id: 'email'
                         },
                         {
                             block: 'errors',
@@ -146,7 +150,7 @@
                         {
                             block: 'button',
                             content: 'Sign up',
-                            name: 'sign-up-button',
+                            name: 'submit',
                             type: 'submit'
                         }
                     ]

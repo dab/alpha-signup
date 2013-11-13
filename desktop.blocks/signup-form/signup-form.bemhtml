@@ -1,7 +1,8 @@
 block('signup-form')(
     tag()('form'),
+    js()('true'),
     attrs()({
-        action: 'http://highfidelity.io',
+        action: 'success.html',
         method: 'post'
     })
 
