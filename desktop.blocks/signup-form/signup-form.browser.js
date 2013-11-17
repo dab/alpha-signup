@@ -7,7 +7,7 @@ modules.define('i-bem__dom', function(provide, DOM) {
 
                     Typekit.load();
 
-                    jQuery('.signup-form').validate({
+                    this.domElem.validate({
                         errorLabelContainer: '.errors',
                         wrapper: 'p',
                         rules: {
